@@ -14,8 +14,6 @@ goog.require('om.core');
 goog.require('om.core');
 goog.require('clojure.string');
 goog.require('clojure.string');
-cljs.core.enable_console_print_BANG_();
-cljs.core.println.cljs$core$IFn$_invoke$arity$variadic(cljs.core.array_seq(["test again "], 0));
 word_marketplace.core.rank_text = (function rank_text(rank){var rank_mod = cljs.core.mod(rank,10);if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(rank_mod,1))
 {return (''+cljs.core.str.cljs$core$IFn$_invoke$arity$1(rank)+"st");
 } else
@@ -49,7 +47,7 @@ word_marketplace.core.handle_input_change = (function handle_input_change(e,owne
 });
 word_marketplace.core.search_word = (function search_word(data,owner,state){return om.core.set_state_BANG_.cljs$core$IFn$_invoke$arity$3(owner,cljs.core.constant$keyword$80,cljs.core.constant$keyword$151.cljs$core$IFn$_invoke$arity$1(state));
 });
-word_marketplace.core.word_search_component = (function word_search_component(data,owner,state){var ch7606 = kioo.util.flatten_nodes(new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.apply.cljs$core$IFn$_invoke$arity$3(om.dom.div,cljs.core.clj__GT_js(new cljs.core.PersistentArrayMap(null, 2, [cljs.core.constant$keyword$61,"row",cljs.core.constant$keyword$86,null], null)),kioo.util.flatten_nodes(new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, ["\n  ",cljs.core.apply.cljs$core$IFn$_invoke$arity$3(om.dom.div,cljs.core.clj__GT_js(new cljs.core.PersistentArrayMap(null, 2, [cljs.core.constant$keyword$61,"col-lg-6 col-md-6 col-sm-6        col-lg-offset-3 col-md-offset-3 col-sm-offset-3",cljs.core.constant$keyword$86,null], null)),kioo.util.flatten_nodes(new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, ["\n    ",kioo.core.handle_wrapper(kioo.om.make_dom).call(null,(kioo.om.set_attr.cljs$core$IFn$_invoke$arity$2 ? kioo.om.set_attr.cljs$core$IFn$_invoke$arity$2(cljs.core.constant$keyword$152,(function (e){e.preventDefault();
+word_marketplace.core.word_search_component = (function word_search_component(data,owner,state){var ch7606 = kioo.util.flatten_nodes(new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.apply.cljs$core$IFn$_invoke$arity$3(om.dom.div,cljs.core.clj__GT_js(new cljs.core.PersistentArrayMap(null, 2, [cljs.core.constant$keyword$61,"row",cljs.core.constant$keyword$86,null], null)),kioo.util.flatten_nodes(new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, ["\n  ",cljs.core.apply.cljs$core$IFn$_invoke$arity$3(om.dom.div,cljs.core.clj__GT_js(new cljs.core.PersistentArrayMap(null, 2, [cljs.core.constant$keyword$61,"col-lg-8 col-md-8 col-sm-12        col-lg-offset-2 col-md-offset-2",cljs.core.constant$keyword$86,null], null)),kioo.util.flatten_nodes(new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, ["\n    ",kioo.core.handle_wrapper(kioo.om.make_dom).call(null,(kioo.om.set_attr.cljs$core$IFn$_invoke$arity$2 ? kioo.om.set_attr.cljs$core$IFn$_invoke$arity$2(cljs.core.constant$keyword$152,(function (e){e.preventDefault();
 return word_marketplace.core.search_word(data,owner,state);
 })) : kioo.om.set_attr.call(null,cljs.core.constant$keyword$152,(function (e){e.preventDefault();
 return word_marketplace.core.search_word(data,owner,state);
@@ -100,12 +98,8 @@ word_marketplace.core.__GT_t7610 = (function __GT_t7610(owner__$1,data__$1,init_
 }
 return (new word_marketplace.core.t7610(owner,data,init,null));
 });
-word_marketplace.core.handler = (function handler(response){return console.log((''+cljs.core.str.cljs$core$IFn$_invoke$arity$1(response)));
-});
-word_marketplace.core.error_handler = (function error_handler(p__7613){var map__7615 = p__7613;var map__7615__$1 = ((cljs.core.seq_QMARK_(map__7615))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__7615):map__7615);var status_text = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__7615__$1,cljs.core.constant$keyword$29);var status = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__7615__$1,cljs.core.constant$keyword$27);return console.log(("something bad happened: "+cljs.core.str.cljs$core$IFn$_invoke$arity$1(status)+" "+cljs.core.str.cljs$core$IFn$_invoke$arity$1(status_text)));
-});
 word_marketplace.core.app_state = cljs.core.atom.cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentArrayMap(null, 3, [cljs.core.constant$keyword$159,"Test",cljs.core.constant$keyword$149,cljs.core.PersistentArrayMap.EMPTY,cljs.core.constant$keyword$80,null], null));
-word_marketplace.core.rank_words_by = (function rank_words_by(words,key){var total_counts = cljs.core.map.cljs$core$IFn$_invoke$arity$2((function (p1__7616_SHARP_){return cljs.core.get.cljs$core$IFn$_invoke$arity$2(cljs.core.second(p1__7616_SHARP_),key);
+word_marketplace.core.rank_words_by = (function rank_words_by(words,key){var total_counts = cljs.core.map.cljs$core$IFn$_invoke$arity$2((function (p1__7613_SHARP_){return cljs.core.get.cljs$core$IFn$_invoke$arity$2(cljs.core.second(p1__7613_SHARP_),key);
 }),words);var new_words = cljs.core.zipmap(cljs.core.keys(words),total_counts);var sorted_words = cljs.core.sort_by.cljs$core$IFn$_invoke$arity$3(cljs.core.last,cljs.core._GT_,new_words);return cljs.core.into(cljs.core.PersistentArrayMap.EMPTY,cljs.core.map_indexed(((function (total_counts,new_words,sorted_words){
 return (function (idx,item){return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.first(item),(idx + 1)], null);
 });})(total_counts,new_words,sorted_words))
@@ -116,6 +110,6 @@ return (function (word,total_rank){return cljs.core.assoc.cljs$core$IFn$_invoke$
 });})(total_ranks))
 ,cljs.core.array_seq([words,total_ranks], 0));
 });
-ajax.core.GET.cljs$core$IFn$_invoke$arity$variadic("/data/words.json",cljs.core.array_seq([new cljs.core.PersistentArrayMap(null, 2, [cljs.core.constant$keyword$40,cljs.core.constant$keyword$160,cljs.core.constant$keyword$38,(function (response){return cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$4(word_marketplace.core.app_state,cljs.core.assoc_in,new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.constant$keyword$149], null),word_marketplace.core.rank_words(response));
+ajax.core.GET.cljs$core$IFn$_invoke$arity$variadic("data/words.json",cljs.core.array_seq([new cljs.core.PersistentArrayMap(null, 2, [cljs.core.constant$keyword$40,cljs.core.constant$keyword$160,cljs.core.constant$keyword$38,(function (response){return cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$4(word_marketplace.core.app_state,cljs.core.assoc_in,new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.constant$keyword$149], null),word_marketplace.core.rank_words(response));
 })], null)], 0));
 om.core.root(word_marketplace.core.init,word_marketplace.core.app_state,new cljs.core.PersistentArrayMap(null, 1, [cljs.core.constant$keyword$148,document.getElementById("word-search")], null));
