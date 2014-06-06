@@ -5785,6 +5785,27 @@ body {
   width: 100%;
   min-height: 100%;
 }
+
+.image-bg {
+  background: webkit-linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("/assets/images/FarmersMarket.jpg");
+  background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("/assets/images/FarmersMarket.jpg");
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size: cover;
+}
+
+div.image-bg {
+  color: #FFF;
+}
+
+div.image-bg h1 {
+  text-shadow: 4px 4px #3d3d3d;
+}
+
+div.image-bg h3 {
+  text-shadow: 2px 2px #3d3d3d;
+}
+
 .site-wrapper-inner {
   display: table-cell;
   vertical-align: top;
