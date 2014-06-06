@@ -5861,6 +5861,10 @@ div.image-bg h3 {
   .site-wrapper-inner {
     vertical-align: middle;
   }
+
+  p {
+    font-size: 16px;
+  }
 }
 @media (min-width: 992px) {
   .masthead,
