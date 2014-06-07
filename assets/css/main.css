@@ -5838,6 +5838,10 @@ div.image-bg h3 {
 .masthead-nav li a:hover {
   background-color: transparent;
 }
+
+h1.cover-heading, h3.cover-subheading {
+  margin-top: 10px;
+}
 @media (min-width: 768px) {
   .masthead {
     position: fixed;
@@ -5882,4 +5886,8 @@ div.team-row {
 }
 th.dynatable-head a {
   color: #ea6045;
+}
+
+.navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-brand:focus {
+  color: #f8ca4d;
 }
