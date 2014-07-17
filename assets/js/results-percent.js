@@ -1,5 +1,5 @@
 $(document).ready(function () {
-  $.get( "data/words.json", function( data ) {
+  $.get( "https://s3-us-west-2.amazonaws.com/marketplace-of-words/words.json", function( data ) {
     var dynatable_data = _.values(data);
     var dynatable = $('#results-table').dynatable({
       dataset: {
