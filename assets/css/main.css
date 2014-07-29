@@ -5855,10 +5855,10 @@ h1.cover-heading {
     position: fixed;
     top: 0;
   }
-  .mastfoot {
-    position: fixed;
-    bottom: 0;
-  }
+.mastfoot {
+  position: absolute;
+  top: 490px;
+}
   .masthead-brand {
     float: left;
   }
