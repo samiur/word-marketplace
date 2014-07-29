@@ -5847,10 +5847,9 @@ div.image-bg h3 {
   padding-left: 5px;
   padding-right: 5px;
 }
-
-h1.cover-heading, h3.cover-subheading {
+h1.cover-heading {
   margin-top: 10px;
-}
+  }
 @media (min-width: 768px) {
   .masthead {
     position: fixed;
