@@ -5823,6 +5823,8 @@ div.image-bg h3 {
 }
 .masthead-nav li {
   display: inline-block;
+  color: #ea6045;
+  font-size: 14px;
 }
 .masthead-nav li + li {
   margin-left: 20px;
