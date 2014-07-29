@@ -5830,9 +5830,8 @@ div.image-bg h3 {
   margin-left: 20px;
 }
 .masthead-nav li a {
-  padding-left: 0;
-  padding-right: 0;
-  font-size: 16px;
+  padding: 0;
+  font-size: 14px;
   font-weight: bold;
   border-bottom: 2px solid transparent;
 }
