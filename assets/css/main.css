@@ -5790,7 +5790,8 @@ body {
   background-image: url("/assets/images/FarmersMarket.jpg");
   background-repeat:no-repeat;
   background-position:center;
-  background-size: cover;
+  position: relative;
+  top: 40px;
 }
 
 div.image-bg {
