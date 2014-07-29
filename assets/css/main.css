@@ -5863,6 +5863,9 @@ h1.cover-heading {
     float: left;
   }
   .masthead-nav {
+    left: 100px;
+    top: -20px;
+    position: relative;
     float: right;
   }
   .masthead,
