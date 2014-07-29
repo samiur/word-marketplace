@@ -5783,7 +5783,7 @@ body {
 .site-wrapper {
   display: table;
   width: 100%;
-  min-height: 100%;
+  min-height: 70%;
 }
 
 .image-bg {
