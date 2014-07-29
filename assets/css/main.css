@@ -5839,6 +5839,14 @@ div.image-bg h3 {
 .masthead-nav li a:hover {
   background-color: transparent;
 }
+.masthead-nav {
+  border: 2px solid #f5e5c0;
+  background-color: #f5e5c0;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 5px;
+  padding-right: 5px;
+}
 
 h1.cover-heading, h3.cover-subheading {
   margin-top: 10px;
