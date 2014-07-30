@@ -5860,7 +5860,7 @@ h1.cover-heading {
   }
 .mastfoot {
   position: absolute;
-  top: 490px;
+  bottom: 20px;
 }
   .masthead-brand {
     float: left;
@@ -5903,4 +5903,7 @@ th.dynatable-head a {
 
 .navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-brand:focus {
   color: #f8ca4d;
+}
+.main-buttons {
+  display: inline;
 }
