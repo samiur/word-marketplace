@@ -3647,6 +3647,14 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   .navbar-header {
     float: left;
   }
+.navbar-header a {
+    color: #f8ca4d;
+  }
+.navbar-header:hover a,
+.navbar-header:focus a{
+  color: #fce7af;
+  text-decoration: none;
+}
 }
 .navbar-collapse {
   max-height: 340px;
@@ -3807,7 +3815,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 @media (min-width: 768px) {
   .navbar-nav {
-    float: left;
+    float: right;
     margin: 0;
   }
   .navbar-nav > li {
