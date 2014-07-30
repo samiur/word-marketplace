@@ -5793,6 +5793,7 @@ body {
   background-repeat:no-repeat;
   background-position:center;
   position: relative;
+  height: 650px;
   top: 40px;
 }
 
