@@ -5801,7 +5801,7 @@ body {
   background-repeat:no-repeat;
   background-position:center;
   position: relative;
-  height: 650px;
+  height: 682px;
   top: 40px;
 }
 
@@ -5859,7 +5859,7 @@ div.image-bg h3 {
   padding-right: 5px;
 }
 h1.cover-heading {
-  margin-top: 10px;
+  margin-top: 0;
   }
 @media (min-width: 768px) {
   .masthead {
