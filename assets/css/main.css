@@ -5915,3 +5915,9 @@ th.dynatable-head a {
 .main-buttons {
   display: inline;
 }
+.connect {
+  display: inline-block;
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+}
