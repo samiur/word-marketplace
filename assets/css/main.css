@@ -5855,8 +5855,8 @@ div.image-bg h3 {
   background-color: #f5e5c0;
   padding-top: 0;
   padding-bottom: 0;
-  padding-left: 5px;
-  padding-right: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 h1.cover-heading {
   margin-top: 0;
@@ -5866,6 +5866,7 @@ h1.cover-heading {
     position: fixed;
     top: 0;
   }
+
 .mastfoot {
   position: absolute;
   bottom: 15px;
@@ -5920,4 +5921,18 @@ th.dynatable-head a {
   position: absolute;
   bottom: 5px;
   right: 5px;
+}
+@media screen and (max-width: 992px) {
+  .masthead-nav {
+    float: none;
+  }
+@media screen and (max-width: 768px) {
+  .masthead-nav {
+    width: 100%;
+    position: absolute;
+    top: -30px;
+    left: -15px;
+    margin-left: 15px;
+    margin-right: 15px;
+
 }
