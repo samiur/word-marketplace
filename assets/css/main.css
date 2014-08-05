@@ -2035,6 +2035,7 @@ fieldset[disabled] .btn {
   color: #f5e5c0;
   background-color: #ea6045;
   border-color: #ea6045;
+  margin-top: 10px;
 }
 .btn-default:hover,
 .btn-default:focus,
